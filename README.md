@@ -63,7 +63,7 @@ This library **bypasses the C++ Standard Library** and uses **direct Linux syste
 ---
 
 ## 📁 File Structure
-
+```plaintext
 myiostream/
 ├── myiostream.h # Header file with class definitions
 ├── myiostream.cpp # Source file with object definitions
@@ -71,4 +71,6 @@ myiostream/
 
 
 Compile with:
+```bash
+
 g++ myiostream.cpp program1.cpp -o myapp
